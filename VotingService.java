@@ -1,6 +1,5 @@
 package cs3560;
 
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -33,7 +32,7 @@ public class VotingService {
 
         for (String choice : question.getCandidateAnswers()) {
             int count = choiceCounts.getOrDefault(choice, 0);
-            System.out.println(choice + " : " + count);
+            System.out.println(choice + ": " + count);
         }
 
         System.out.println("");
