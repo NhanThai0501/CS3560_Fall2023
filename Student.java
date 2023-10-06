@@ -1,6 +1,5 @@
 package cs3560;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
