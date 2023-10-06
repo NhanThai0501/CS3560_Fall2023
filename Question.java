@@ -4,12 +4,12 @@ import java.util.List;
 
 public class Question {
     private String type;
-    private List<String> candidateAnswers;
+    private List<String> studentAnswers;
     private boolean allowMultipleChoices;
 
-    public Question(String type, List<String> candidateAnswers, boolean allowMultipleChoices) {
+    public Question(String type, List<String> studentAnswers, boolean allowMultipleChoices) {
         this.type = type;
-        this.candidateAnswers = candidateAnswers;
+        this.studentAnswers = studentAnswers;
         this.allowMultipleChoices = allowMultipleChoices;
     }
 
@@ -18,7 +18,7 @@ public class Question {
     }
 
     public List<String> getCandidateAnswers() {
-        return candidateAnswers;
+        return studentAnswers;
     }
 
     public boolean allowMultipleChoices() {
